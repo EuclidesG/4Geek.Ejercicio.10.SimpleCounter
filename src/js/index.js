@@ -26,7 +26,7 @@ let counter = 0;
 
 setInterval(function() {
 	const seg = Math.floor(Math.floor(counter) / 1);
-	const min = Math.floor(Math.floor(counter) / 60);
+	
 	console.log(seg);
 	counter++;
 	ReactDOM.render(
